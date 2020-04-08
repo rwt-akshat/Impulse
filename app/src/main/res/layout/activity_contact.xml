@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Contact">
+
+        <TextView
+            android:id="@+id/tvContactUs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Contact Us"
+            android:textColor="#000"
+            android:textSize="50sp" />
+
+        <TextView
+            android:layout_below="@id/tvContactUs"
+            android:id="@+id/TVForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="70dp"
+            android:text="Please contact us using the form below"
+            android:textColor="#000"
+            android:textSize="25sp" />
+
+        <EditText
+            android:layout_below="@id/TVForm"
+            android:id="@+id/etSub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#DCDCDC"
+            android:hint="Subject"
+            android:padding="15dp"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textColorHint="#000" />
+
+
+        <EditText
+            android:layout_below="@id/etSub"
+            android:id="@+id/etMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#DCDCDC"
+            android:hint="Message"
+            android:paddingLeft="15dp"
+            android:paddingTop="35dp"
+            android:paddingBottom="35dp"
+            android:textColor="#000"
+            android:textColorHint="#000" />
+
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_below="@id/etMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:padding="15sp"
+            android:text="SEND"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Made By:\nAkshat Rawat"/>
+
+</RelativeLayout>
+
+

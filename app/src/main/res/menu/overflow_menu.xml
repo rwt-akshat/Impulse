@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/feedback_menu"
+        android:title="Help / FeedBack"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/contact_menu"
+        android:title="Contact"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/members_contact_menu"
+        android:title="Club Members"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/sign_out"
+        android:title="Sign Out"
+        app:showAsAction="collapseActionView"/>
+
+</menu>

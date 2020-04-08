@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Impulse</string>
+    <string name="googlepay_button_content_description">Google Pay</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="feedback">Please give feedback about Impulse App and its features only. Feel free to give any kind of feedback and if possible attach the screenshots with your mail.</string>
+
+</resources>
